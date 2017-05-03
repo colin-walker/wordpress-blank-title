@@ -1,5 +1,5 @@
 /*
- * Simple function to replace the post title if blank
+ * Simple function to replace the post title if blank - just add it to functions.php
  *
  * 'title_save_pre' runs against the post title before the post is saved 
  */
