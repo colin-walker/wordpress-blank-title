@@ -7,7 +7,7 @@
 
 function filter_title_save_pre( $title ) { 
     if ( $title == "" ) {
-      return date( 'd/m/Y, H:m' ); 
+      return date( 'd/m/Y, H:i' ); 
     } else {
       return $title;
     }
