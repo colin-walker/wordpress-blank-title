@@ -7,6 +7,7 @@
 
 function filter_title_save_pre( $title ) { 
     if ( $title == "" ) {
+      // date_default_timezone_set("**your time zone, e.g. Europe/London**");
       return date( 'd/m/Y, H:i' ); 
     } else {
       return $title;
